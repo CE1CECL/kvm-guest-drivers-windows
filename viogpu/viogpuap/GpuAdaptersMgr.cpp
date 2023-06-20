@@ -4,7 +4,7 @@ void GpuAdaptersMgr::FindAdapters()
 {
     PrintMessage(L"%ws\n", __FUNCTIONW__);
 
-    std::wstring id = TEXT("PCI\\VEN_1AF4&DEV_1050");
+    std::wstring id = TEXT("PCI\\VEN_1960&DEV_1050");
     DISPLAY_DEVICE adapter = { sizeof(DISPLAY_DEVICE) };
     DWORD adapterIndex = 0;
     while (FindDisplayDevice(&adapter, id, &adapterIndex))

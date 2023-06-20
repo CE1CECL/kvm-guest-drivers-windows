@@ -9,7 +9,7 @@
 ;Abstract:
 ;
 ;Installation Notes:
-;    Using Devcon: Type "devcon install fwcfg.inf ACPI\QEMU0002" to install
+;    Using Devcon: Type "devcon install fwcfg.inf ACPI\CECL0002" to install
 ;
 ;--*/
 
@@ -45,7 +45,7 @@ WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1
 %VENDOR%=FwCfg,NT$ARCH$
 
 [FwCfg.NT$ARCH$]
-%FwCfg.DeviceDesc%=FwCfg_Device, ACPI\QEMU0002
+%FwCfg.DeviceDesc%=FwCfg_Device, ACPI\CECL0002
 
 [FwCfg_Device.NT]
 CopyFiles=Drivers_Dir

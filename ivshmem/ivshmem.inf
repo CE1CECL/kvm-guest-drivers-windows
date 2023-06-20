@@ -9,7 +9,7 @@
 ;Abstract:
 ;
 ;Installation Notes:
-;    Using Devcon: Type "devcon install ivshmem.inf PCI\VEN_1AF4&DEV_1110&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01" to install
+;    Using Devcon: Type "devcon install ivshmem.inf PCI\VEN_1960&DEV_1110&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01" to install
 ;
 ;--*/
 
@@ -43,7 +43,7 @@ WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with
 %VENDOR%=Standard,NT$ARCH$
 
 [Standard.NT$ARCH$]
-%IVSHMEM.DeviceDesc%=IVSHMEM_Device, PCI\VEN_1AF4&DEV_1110&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01, PCI\VEN_1AF4&DEV_1110
+%IVSHMEM.DeviceDesc%=IVSHMEM_Device, PCI\VEN_1960&DEV_1110&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01, PCI\VEN_1960&DEV_1110
 
 [IVSHMEM_Device.NT]
 CopyFiles=Drivers_Dir

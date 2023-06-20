@@ -13,7 +13,7 @@ inf    = d2, viostor.inf
 catalog= d2, viostor.cat
 
 [HardwareIds.scsi.WNET32]
-id = "PCI\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00", "viostor"
+id = "PCI\VEN_1960&DEV_1001&SUBSYS_00021AF4&REV_00", "viostor"
 
 [Config.WNET32]
 value = Parameters\PnpInterface,5,REG_DWORD,1

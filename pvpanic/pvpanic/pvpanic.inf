@@ -9,7 +9,7 @@
 ;Abstract:
 ;
 ;Installation Notes:
-;    Using Devcon: Type "devcon install pvpanic.inf ACPI\QEMU0001" to install
+;    Using Devcon: Type "devcon install pvpanic.inf ACPI\CECL0001" to install
 ;
 ;--*/
 
@@ -41,7 +41,7 @@ WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with
 %VENDOR% = PVPanic,NT$ARCH$
 
 [PVPanic.NT$ARCH$]
-%PVPanic.DeviceDesc% = PVPanic_Device, ACPI\QEMU0001
+%PVPanic.DeviceDesc% = PVPanic_Device, ACPI\CECL0001
 
 [PVPanic_Device.NT]
 CopyFiles = PVPanic_CopyFiles

@@ -36,7 +36,7 @@ HKR,Interrupt Management\MessageSignaledInterruptProperties,MSISupported,0x00010
 HKR,Interrupt Management\MessageSignaledInterruptProperties,MessageNumberLimit,0x00010001,1
 
 [viocrypt.NT$ARCH$]
-%viocrypt.DeviceDesc%=viocrypt_Device, PCI\VEN_1AF4&DEV_1054&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01, PCI\VEN_1AF4&DEV_1054
+%viocrypt.DeviceDesc%=viocrypt_Device, PCI\VEN_1960&DEV_1054&SUBSYS_1100_INX_SUBSYS_VENDOR_ID&REV_01, PCI\VEN_1960&DEV_1054
 
 [viocrypt_Device.NT]
 CopyFiles=Drivers_Dir

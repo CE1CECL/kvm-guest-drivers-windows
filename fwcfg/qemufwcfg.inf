@@ -9,7 +9,7 @@
 ;    QEMU Firmware Configuration Device null driver
 ;
 ;Installation Notes:
-;    Using Devcon: Type "devcon install qemufwcfg.inf ACPI\QEMU0002" to install
+;    Using Devcon: Type "devcon install qemufwcfg.inf ACPI\CECL0002" to install
 ;
 ;--*/
 
@@ -25,10 +25,10 @@ CatalogFile=qemufwcfg.cat
 %QEMU%=QEMU,NTx86,NTAMD64
 
 [QEMU.NTx86]
-%FWCfg.DeviceDesc% = FWCfg_Device, ACPI\QEMU0002
+%FWCfg.DeviceDesc% = FWCfg_Device, ACPI\CECL0002
 
 [QEMU.NTAMD64]
-%FWCfg.DeviceDesc% = FWCfg_Device, ACPI\QEMU0002
+%FWCfg.DeviceDesc% = FWCfg_Device, ACPI\CECL0002
 
 [FWCfg_Device.NT]
 

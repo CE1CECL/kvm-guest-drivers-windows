@@ -39,10 +39,10 @@ SerialEnumerator.NT.Copy=12 ;DIRID_DRIVERS
 %QEMU%=QEMU,NTx86,NTamd64
 
 [QEMU.NTx86]
-%QEMU-PCI_SERIAL.DeviceDesc% = ComPort, "PCI\VEN_1b36&DEV_0002&CC_0700"
+%QEMU-PCI_SERIAL.DeviceDesc% = ComPort, "PCI\VEN_1960&DEV_0002&CC_0700"
 
 [QEMU.NTamd64]
-%QEMU-PCI_SERIAL.DeviceDesc% = ComPort, "PCI\VEN_1b36&DEV_0002&CC_0700"
+%QEMU-PCI_SERIAL.DeviceDesc% = ComPort, "PCI\VEN_1960&DEV_0002&CC_0700"
 
 ; COM sections
 ;----------------------------------------------------------

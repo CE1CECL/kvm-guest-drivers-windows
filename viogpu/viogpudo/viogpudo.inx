@@ -30,7 +30,7 @@ viogpudo.sys = 1,,
 %RHEL%=RHEL,NT$ARCH$
 
 [RHEL.NT$ARCH$]
-%VioGpuDod.DeviceDesc% = VioGpuDod_Inst, PCI\VEN_1AF4&DEV_1050&SUBSYS_11001AF4&REV_01
+%VioGpuDod.DeviceDesc% = VioGpuDod_Inst, PCI\VEN_1960&DEV_1050&SUBSYS_11001AF4&REV_01
 
 [VioGpuDod_Files_Driver]
 viogpudo.sys,,,2
